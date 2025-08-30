@@ -5,10 +5,15 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
+    "export": "next export",
+    "out": "next build && next export && touch ./out/.nojekyll",
+    "predeploy": "npm run out",
+    "deploy": "gh-pages -d out --dotfiles",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
