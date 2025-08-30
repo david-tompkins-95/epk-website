@@ -1,0 +1,37 @@
+/*
+    ### Author: David Tompkins
+    Landing Page CSS
+    I am using a grid pattern to create this application 
+    -- Anything related to "items" is grid related.
+    -- No use of flex will be found here. 
+*/
+
+.head {
+    box-sizing: border-box;
+    padding: 80px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.headContainer {
+    box-sizing: content-box;
+    height: auto;;
+    width: auto;
+    border-radius: var(--radius-lg);
+    background-color: #000000cc;
+    display: grid, inline;
+    grid-template-columns: 3;
+    gap: 4;
+}
+
+.titleContainer {
+    grid-column: span 3
+}
+
+.musicContainer{
+    grid-column: span 3;
+}
+
+
+
+
