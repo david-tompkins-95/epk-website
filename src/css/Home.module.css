@@ -5,6 +5,10 @@
     -- Anything related to "items" is grid related.
     -- No use of flex will be found here. 
 */
+@import "tailwindcss";
+@tailwindcss base;
+@tailwindcss utilities;
+@tailwindcss components;
 
 .head {
     padding: 30px;
