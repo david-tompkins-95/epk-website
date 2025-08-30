@@ -9,7 +9,7 @@ export default function TextFieldLoader() {
     useEffect(() => {
         async function loadFile() {
             try {
-                const response = await fetch('/text/bio.txt');
+                const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/text/bio.txt`);
                 if (!response.ok) {
                     throw new Error('Failed to fetch file');
                 }

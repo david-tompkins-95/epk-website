@@ -5,9 +5,8 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "export": "next export",
-    "out": "next build && next export && touch ./out/.nojekyll",
-    "predeploy": "npm run out",
+    "out": "next build && echo. > ./out/.nojekyll",
+    "predeploy": "yarn out",
     "deploy": "gh-pages -d out --dotfiles",
     "start": "next start",
     "lint": "eslint"
