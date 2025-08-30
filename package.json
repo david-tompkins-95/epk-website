@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "out": "next build && echo. > ./out/.nojekyll",
+    "out": "next build && touch ./out/.nojekyll",
+    "winout": "next build && echo. > ./out/.nojekyll",
     "predeploy": "yarn out",
     "deploy": "gh-pages -d out --dotfiles",
     "start": "next start",
