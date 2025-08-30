@@ -18,13 +18,6 @@
     src: url(../assets/fonts/Eloquent-JFPro-.otf);
 }
 
-.epkLayout {
-    grid-column-start: 2;
-    grid-row: 1 / -1;
-    grid-row: 1 / -1;
-    padding: 5px;
-}
-
 .textContainer {
     box-sizing: content-box;
     padding: 20;
@@ -36,11 +29,13 @@
     height: fit-content;
     width: fit-content;
 }
+
 .artistWelcome {
     font-family: freeFont;
     font-size: larger;
     color: var(--color-yellow-400);
 }
+
 .artistName {
     font-family: hardFont;
     font-style: italic;
