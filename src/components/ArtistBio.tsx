@@ -1,9 +1,14 @@
 import styles from '../css/EpkContent.module.css'
+import TextFieldLoader from './TextFieldLoader'
 
 export default function ArtistBio() {
     return (
-        <div className={styles.artistBio}>
-          I am a child of the epk layout.
+        <div className={styles.bioContainer}>
+          <div className={styles.bioTextBox}>
+            <div className={styles.bioText}>
+              <TextFieldLoader/>
+            </div>
+          </div>
         </div>
     )
 }

@@ -12,6 +12,12 @@
     font-family: freeFont;
     src: url(../assets/fonts/Freedom45-axRXg.ttf);
 }
+
+@font-face {
+    font-family: eliFont;
+    src: url(../assets/fonts/Eloquent-JFPro-.otf);
+}
+
 .epkLayout {
     grid-column-start: 2;
     grid-row: 1 / -1;
@@ -33,7 +39,7 @@
 .artistWelcome {
     font-family: freeFont;
     font-size: larger;
-    color: var(--color-cyan-100);
+    color: var(--color-yellow-400);
 }
 .artistName {
     font-family: hardFont;
@@ -68,6 +74,7 @@
     height: 100%;
     width: 40%;
 }
+
 .sampleTwo {
     justify-self: center;
     padding: 10;
@@ -84,9 +91,60 @@
     white-space: nowrap;
     text-overflow: ellipsis; 
     font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
-    font-weight: 100;
+    font-weight: 120;
 }
 .scArtistLink {
     color: #ffffff; 
     text-decoration: none;
+}
+
+.bioContainer {
+    box-sizing: content-box;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex:content;
+    width: auto;
+    height: auto;
+}
+
+.bioTextBox {
+    width: auto;
+    height: auto;
+    padding: 10;
+    font-family: eliFont;
+    font-style:normal;
+    font-size: 15;
+    color: var(--color-amber-400);
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+.textArea {
+    width: auto;
+    height: auto;
+    text-wrap: wrap;
+}
+
+.galleryContainer {
+    justify-content: center;
+    box-sizing: content-box;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex:content;
+    width: auto;
+    height: auto;
+}
+
+.imageOne {
+    width: auto;
+    height: auto;
+    margin-right: 40;
+}
+
+.imageTwo {
+    width: auto;
+    height: auto;
+    margin-left: 40;
 }

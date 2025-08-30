@@ -8,7 +8,7 @@
 
 .head {
     box-sizing: border-box;
-    padding: 80px;
+    padding: 30px;
     height: 100vh;
     width: 100vw;
 }
@@ -26,6 +26,16 @@
 
 .titleContainer {
     grid-column: span 3
+}
+
+.bioContainer {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.galleryContainer {
+    grid-column: span 3;
+    justify-self: center;
 }
 
 .musicContainer{
