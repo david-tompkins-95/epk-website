@@ -5,7 +5,7 @@
     -- Anything related to "items" is grid related.
     -- No use of flex will be found here. 
 */
-@import url(./reset.css);
+@import "tailwindcss/base";
 
 .head {
     padding: 30px;
