@@ -5,10 +5,9 @@
     -- Anything related to "items" is grid related.
     -- No use of flex will be found here. 
 */
-@import "reset.css";
+@import url(./reset.css);
 
 .head {
-    box-sizing: border-box;
     padding: 30px;
     height: 100%;
     width: 100%;
@@ -16,17 +15,17 @@
 
 .headContainer {
     box-sizing: content-box;
-    height: auto;;
+    height: auto;
     width: auto;
     border-radius: var(--radius-lg);
     background-color: #000000cc;
-    display: grid, inline;
-    grid-template-columns: 3;
-    gap: 4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
 }
 
 .titleContainer {
-    grid-column: span 3
+    grid-column: span 3;
 }
 
 .bioContainer {
