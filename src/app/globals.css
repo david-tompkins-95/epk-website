@@ -1,12 +1,5 @@
 @import "tailwindcss";
 
-/* Normalize */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --background: #fcfcfc;
   --foreground: #ffffff;

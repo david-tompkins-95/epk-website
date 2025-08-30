@@ -5,6 +5,7 @@
     -- Anything related to "items" is grid related.
     -- No use of flex will be found here. 
 */
+@import "reset.css";
 
 .head {
     box-sizing: border-box;
